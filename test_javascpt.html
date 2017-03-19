@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!---practice javascript file--->
+<!--includes NIST widget for fun. the .js file can be found at \Desktop\San%20Bruno%20Webmasters\functions_test.js\-->
+<html>
+	<head>
+		<title>My Clock</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<html lang="en">
+		<script src="functions_test.js"></script>
+	</head>
+	
+	<body onload="startClock()">
+		<form name="clockform" id="clockform" action="">
+		
+		<div id="clock">
+			<center><h1>The Current Time Is</h1></center>
+			<center><h3>Below is an example of a Javascript clock. Also below is the NIST widget, which connects to their servers. Enjoy.</h3></center>
+			<p>
+			<center>
+				<input size="12" id="dateNOW" name="dateNOW" /><br>
+				<input size="12" id="timeNOW" name="timeNOW" /><br>
+		<form>
+				<br>
+				<div>
+					</form> 
+					<form name="countDown" id="countDown" action="">
+						<div id="countDown">
+							<h1>Countdown to Fair!!</h1>
+							<p>
+								<label for="daysLeft">Days:</label>
+								<input readonly style="border:none;" size="12" id="daysLeft" name="daysLeft" />
+								<label for="daysLeft">Hours:</label>
+								<input readonly style="border:none;" size="12" id="hoursLeft" name="hoursLeft" />
+								<label for="daysLeft">Minutes:</label>
+								<input readonly style="border:none;" size="12" id="minutesLeft" name="minutesLeft" />
+								<label for="daysLeft">Seconds:</label>
+								<input readonly style="border:none;" size="12" id="secondsLeft" name="secondsLeft" />
+							</p>
+						</div>
+					</form>
+				<object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0"
+    style="WIDTH: 177px; HEIGHT: 125px;" type="application/x-shockwave-flash" data="http://time.gov/widget/NISTtimewidget.swf">
+    <param name="movie" value="http://time.gov/widget/NISTtimewidget.swf">
+    <embed src="http://time.gov/widget/NISTtimewidget.swf" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+    </embed>
+</object>
+			</center>
+			</p>
+		</div>
+	</body>
+	<br>
+	<center><footer>Widget: NIST Time Widget at time.gov/widget/ | Updated and Created 03/19/2017; Contact <a href="mailto:km6dyo@qsl.net">me.</</center>
+	
+	
+</html>
